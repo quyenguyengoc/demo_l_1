@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                var settings = {
+                    "url": "https://api.web2m.com/historyapitcbv3/Lamndao2702@@/4730686868/16627CFD-F990-EC9C-C97E-97E7A7A6A27B",
+                    "method": "GET",
+                    "timeout": 0,
+                    "crossDomain": false,
+                };
+                
+                $.ajax(settings).done(function (response) {
+                    console.log(response);
+                });
+            });
+        </script>
+    </body>
+</html>
+
